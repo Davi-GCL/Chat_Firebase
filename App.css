@@ -1,0 +1,75 @@
+#root {
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  
+  text-align: center;
+}
+
+.btn-logout , .btn-login {
+  color: white;
+  background-image: linear-gradient(-45deg, #bd34fe, #47caff);
+  border: 2px solid black;
+  margin: 4px;
+}
+
+.tArea {
+  width: 100%;
+  min-height: 200px;
+}
+.logo {
+  height: 2.5em;
+  padding: 0 0.5em 0 1em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+}
+
+/* .card {
+  padding: 2em;
+} */
+
+.read-the-docs {
+  color: #888;
+}
+
+/* .post{
+  border: #000 solid 1px;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 10px;
+  background-color: rgb(53, 53, 53);
+} */
+
+/* .post-header{
+
+} */
+
+.chat-section{
+  width: 75vw;
+  background-color: coral;
+  padding: 40px;
+  display: grid;
+  /* place-items: center; */
+  justify-content: start;
+  justify-items: start;
+}
+
+.post{
+  max-width: 550px;
+}
+
+@media screen and (max-width:425px){
+  .chat-section{
+    width: 100vw !important;
+    padding: 1.5rem !important;
+  }
+
+}
